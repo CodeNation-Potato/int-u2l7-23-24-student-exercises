@@ -13,8 +13,12 @@
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
 
 body {
-    background-color: #d93f3f;
+    background-color: #000000;
     color: #eb2626;
+}
+
+p {
+  border: #eb2626 ridge 5px;
 }
 
 
@@ -29,4 +33,15 @@ body {
     border-radius: 30px;
     font-family: 'Italianno', cursive;
     font-size: 90px;
+}
+
+.food-pic {
+  border: 3px #eb2626 solid;
+  border-radius: 30px;
+  
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
 }
